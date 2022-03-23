@@ -111,7 +111,7 @@ def takepics():
     # Display the resulting frame
         # cv2.imshow('frame', frame)
       
-        cv2.imwrite("picss/User" + ".jpg",frame)
+        cv2.imwrite("piccs/User" + ".jpg",frame)
         if cv2.waitKey(100) & 0xff:
            break
   
